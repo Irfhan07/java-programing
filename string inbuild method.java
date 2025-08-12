@@ -47,6 +47,29 @@ class Main {
         
         System.out.println(str.equalsIgnoreCase("hello"));
         System.out.print(String.format(hi,name,N2));
+
+         String name="abdul world";
+        String S1=name.toUpperCase();
+        System.out.println(S1);
+        
+        System.out.println(name.indexOf("world"));
+        
+         String name="abdul";
+        
+        byte[]arr=name.getBytes();
+        
+        System.out.println(arr[0]);
+        
+        System.out.println(name.hashCode());
+        
+        char[] data ={'1','2','3','4','5','2','3','3','7'};
+        
+        
+        System.out.println(data);
+        
+        String S1="Abdul";
+        S1.getChars(0,5,data,4);
+        System.out.println(data);
       
       
         
