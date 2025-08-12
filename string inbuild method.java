@@ -70,6 +70,9 @@ class Main {
         String S1="Abdul";
         S1.getChars(0,5,data,4);
         System.out.println(data);
+
+        boolean A1=name.isEmpty();
+        System.out.println(A1);
       
       
         
