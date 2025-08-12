@@ -29,7 +29,11 @@ class Main {
         String S7=name.concat(N2);
         System.out.println(S7);
         
-        
+        boolean S8=name.contains(N2);
+        System.out.println(S8);
+      
+        boolean S9=name.contentEquals(N2);
+        System.out.println(S9);
         
         
         
