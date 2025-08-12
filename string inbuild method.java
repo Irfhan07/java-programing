@@ -23,7 +23,11 @@ class Main {
         int S5=name.compareTo(N2);
         System.out.println(S5);
         
+        int  S6= name.compareToIgnoreCase(N2);
+        System.out.println(S6);
         
+        String S7=name.concat(N2);
+        System.out.println(S7);
         
         
         
