@@ -35,8 +35,12 @@ class Main {
         boolean S9=name.contentEquals(N2);
         System.out.println(S9);
         
+        String S10=name.copyValueOf(data1,0,5);
+        System.out.println(S10);
         
-        
+       boolean S11=name.endsWith("O");
+       System.out.println(S11);
+      
         
         
         
