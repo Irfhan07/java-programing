@@ -73,6 +73,13 @@ class Main {
 
         boolean A1=name.isEmpty();
         System.out.println(A1);
+
+          
+        String name=String.join(" ","ABDUL", "IRFHAN");
+        System.out.println(name);
+        
+        System.out.println(name.lastIndexOf("irfhan"));
+        
       
       
         
