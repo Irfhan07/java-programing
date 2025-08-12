@@ -16,6 +16,14 @@ class Main {
         
         int S3=name.codePointBefore(1);
         System.out.println(S3);
+
+        int S4=name.codePointCount(0,5);
+        System.out.println(S4);
+        
+        int S5=name.compareTo(N2);
+        System.out.println(S5);
+        
+        
         
         
         
