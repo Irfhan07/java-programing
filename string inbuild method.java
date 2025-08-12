@@ -40,6 +40,14 @@ class Main {
         
        boolean S11=name.endsWith("O");
        System.out.println(S11);
+
+         String str="Abdul";
+        
+        String hi="hi %s my age %d";
+        
+        System.out.println(str.equalsIgnoreCase("hello"));
+        System.out.print(String.format(hi,name,N2));
+      
       
         
         
