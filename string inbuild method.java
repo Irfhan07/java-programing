@@ -100,6 +100,31 @@ class Main {
    
     System.out.println(a.startsWith("hello world"));
     System.out.println(a.startsWith("hello"));
+
+           Scanner a=new Scanner(System.in);
+        
+        System.out.println("Enter your name:");
+        
+        
+        String s=a.nextLine();
+     
+     String s2=" Abdul irfhan";
+     
+     char[]y=s.toCharArray();
+     
+     for(char s1:y){
+          System.out.println(s1);
+     }
+    
+     
+     System.out.println(s.toUpperCase());
+     
+     System.out.println(s.toLowerCase());
+     
+     System.out.println(s.toString());
+     
+     System.out.println(s2.trim());
+     
  
         
       
