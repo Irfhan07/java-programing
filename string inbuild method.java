@@ -125,7 +125,15 @@ class Main {
      
      System.out.println(s2.trim());
      
- 
+    String s2=" Abdul irfhan";
+     
+     int a=67;
+     
+     System.out.println(String.valueOf(s2));
+     
+     System.out.println(a.typeOf());
+     
+     
         
       
       
