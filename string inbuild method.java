@@ -79,6 +79,28 @@ class Main {
         System.out.println(name);
         
         System.out.println(name.lastIndexOf("irfhan"));
+
+          Scanner data=new Scanner(System.in);
+        System.out.println("Enter your value:");
+        String D1=data.nextLine();
+    
+      String a="hello world";
+      
+    String y="[,// .//s]";
+    System.out.println(D1.replace("a","s"));
+    System.out.println(D1.replaceAll("hello","hi"));
+    String[]z=D1.split(y);
+    
+    for(String s:z){
+        
+        System.out.println(s);
+
+        String a="hello world";
+      
+   
+    System.out.println(a.startsWith("hello world"));
+    System.out.println(a.startsWith("hello"));
+ 
         
       
       
